@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniKros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <a href="#" class="link-underlink link-underline-opacity-0">
+                    <img src="./images/Sem Título-1.png" alt="logo">
+                </a>
+                <nav class="navbar navbar-dark">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown btn btn-dark config" data-bs-toggle="dropdown">
+                                <span class="navbar-toggler-icon"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Perfil</a></li>
+                                <li><a href="#" class="dropdown-item">Minha lista</a></li>
+                                <li><a href="#" class="dropdown-item">Configurações</a></li>
+                                <li><a href="#" class="dropdown-item">Sair</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="destaques" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <a href="#">
+                        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/4305090653ee4239dd0d797f1a4a6bdf.jpe" class="d-block w-100">
+                    </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <a href="#">
+                        <img src="https://m.media-amazon.com/images/S/pv-target-images/23fea9f3e73d6764401efeeae78627cfc46a0e74fae64e0a8c6081dbcb9eee8b.png" class="d-block w-100">
+                    </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <a href="#">
+                        <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/34cf65c200da726462d0c0ac7e0e55af.jpe" class="d-block w-100">
+                    </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <a href="#">
+                        <img src="https://www.cnet.com/a/img/resize/710f6ae89b60df5986d4cf85e99ad61578527eff/hub/2024/01/05/e4cc6469-dbbd-4116-8595-e7e55f5dcc4d/mashle-season-2.jpg?auto=webp&fit=crop&height=675&width=1200" class="d-block w-100">
+                    </a>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <a href="#">
+                        <img src="https://sm.ign.com/ign_br/screenshot/default/spy-x-family_jk5a.jpg" class="d-block w-100">
+                    </a>
+                </div>
+            </div>
+            <button data-bs-target="#destaques" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#destaques" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <section class="em-alta">
+        <div class="container">
+            <div class="secao">
+                <h4>Em alta</h4>
+                <h6 class="btn btn-dark">Ver mais</h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://sm.ign.com/ign_br/screenshot/default/e9aed30acb7f0f9c34fa3b046c29c4181679407529-main_yz78.png">
+                        </a>
+                        <div class="card-body">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h5 class="card-tittle">Solo leveling</h5>
+                            </a>
+                            <h6 class="btn btn-outline-danger">+ Adicionar a lista</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://m.media-amazon.com/images/S/pv-target-images/427852ab1fa3a168109f9a632054142e464c7da058f41a81717699b376a8f48d.jpg">
+                        </a>
+                        <div class="card-body">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h5 class="card-tittle">Mashle magia e músculos</h5>
+                            </a>
+                            <h6 class="btn btn-outline-danger">+ Adicionar a lista</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://www.animeshon.fr/wp-content/uploads/2022/07/netflix-demon-slayer.jpg">
+                        </a>
+                        <div class="card-body">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h5 class="card-tittle">Demon Slayer</h5>
+                            </a>
+                            <h6 class="btn btn-outline-danger">+ Adicionar a lista</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="continue-assitindo">
+        <div class="container">
+            <div class="secao">
+                <h4>Continue assistindo</h4>
+                <h6 class="btn btn-dark">Ver mais</h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://blogdataverna.com.br/wp-content/uploads/2023/07/15917662-915a-4188-b560-a073406445e5.jpg">
+                        </a>
+                        <div class="card-img-overlay grad">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h4>Full Metal Alchemist</h4>
+                            </a>
+                            <h5>T00 E00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://t.ctcdn.com.br/l0XQb4QGMf3DLlTdiuCbb9ZdW7A=/1920x1080/smart/i527855.jpeg">
+                        </a>
+                        <div class="card-img-overlay grad">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h4>One Piece</h4>
+                            </a>
+                            <h5>T00 E00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://i.ytimg.com/vi/Ah-yFk3BXqs/maxresdefault.jpg">
+                        </a>
+                        <div class="card-img-overlay grad">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h4>Black Clover</h4>
+                            </a>
+                            <h5>T00 E00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="recomendados">
+        <div class="container">
+            <div class="secao">
+                <h4>Recomendados</h4>
+                <h6 class="btn btn-dark">Ver mais</h6>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/880a9a293ef5b71e1122e85543f8e86d.jpe">
+                        </a>
+                        <div class="card-body">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h5 class="card-tittle">Diários de uma Apotecária</h5>
+                            </a>
+                            <h6 class="btn btn-outline-danger">+ Adicionar a lista</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/0373e7213a475abe3c6951e70b6ca02e.jpe">
+                        </a>
+                        <div class="card-body">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h5 class="card-tittle">Ranking of Kings</h5>
+                            </a>
+                            <h6 class="btn btn-outline-danger">+ Adicionar a lista</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card">
+                        <a href="#">
+                            <img src="https://www.multiversos.com.br/wp-content/uploads/2020/08/vinland-saga-capa-scaled.jpg">
+                        </a>
+                        <div class="card-body">
+                            <a href="#" class="link-underline link-underline-opacity-0">
+                                <h5 class="card-tittle">Vinland Saga</h5>
+                            </a>
+                            <h6 class="btn btn-outline-danger">+ Adicionar a lista</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-white text-center py-4" id="rodape">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>AniKros</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#">Dúvidas Frequentes</a>
+                        </li>
+                        <li>
+                            <a href="#">Pedidos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Contate-nos</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-facebook"></i>  Facebook
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-twitter-x"></i>  Twitter
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="bi bi-instagram"></i>  Instagram
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col">
+                    <p>Todos os direitos reservados © 2024</p>
+                    <p>Desenvolvido por <a href="#">André Silva</a> <i class="bi bi-github"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
